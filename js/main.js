@@ -1,9 +1,33 @@
 
+function soma(n1, n2) {
+  return n1 + n2;
+}
+
+function validaIdade(idade) {
+  var validar;
+  if (idade >= 18){
+    validar = tre
+  } else {
+    validar = false
+  }
+  return validar;
+}
+
+var idade = prompt("Qual sua idade");
+console.log(validaIdade(idade));
+//alert(soma(5, 10));//
+
+
+
+
+
+/*
 var d = new Date();
 alert(d);
 alert(d.getDate());
 alert(d.getHours());
 alert(d.getMinutes());
+*/
 
 
 /*
@@ -34,7 +58,7 @@ if (idade >= 18) {
 };
 */
 
-//var frutas = [{nome: "maça", cor:"vermelha"}, {nome: "uva", cor:"roxa"}]   
+//var frutas = [{nome: "maça", cor:"vermelha"}, {nome: "uva", cor:"roxa"}]
 //console.log(frutas);
 //alert(frutas[1].nome);
 
@@ -66,7 +90,7 @@ if (idade >= 18) {
  //console.log(lista.join(" - "));
 
 
- 
+
 
 
 
