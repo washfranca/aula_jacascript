@@ -1,10 +1,23 @@
 
-function soma(n1, n2) {
-  return n1 + n2;
+
+function clicou(){
+  document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
+  //console.log(document.getElementById("agradecimento"));
 }
 
 
 
+
+
+
+
+/*
+function soma(n1, n2) {
+  return n1 + n2;
+}
+
+*/
+/*
 function validaIdade(idade) {
   var validar;
   if (idade >= 18){
@@ -14,11 +27,10 @@ function validaIdade(idade) {
   }
   return validar;
 }
-
-
+/*
 var idade = prompt("Qual sua idade");
 console.log(validaIdade(idade));
-
+*/
 
 //alert(soma(5, 10));//
 
@@ -93,9 +105,4 @@ if (idade >= 18) {
  // console.log(lista);
  //console.log(lista.toString());
  //console.log(lista.join(" - "));
-
-
-
-
-
 
